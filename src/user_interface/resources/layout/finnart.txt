@@ -1,0 +1,61 @@
+IPanel bodyPnl = new IPanel();
+		bodyPnl.setImage("src/user_interface/resources/finnart.png");
+		bodyPnl.setBounds(10, 99, 1300, 766);
+		getContentPane().add(bodyPnl);
+		bodyPnl.setLayout(null);
+		
+		JButton btnJ3 = new JButton("Jetty 3");
+		btnJ3.setForeground(Color.WHITE);
+		btnJ3.setBackground(new Color(0, 153, 204));
+		btnJ3.setFont(new Font("Arial", Font.BOLD, 20));
+		btnJ3.setBounds(510, 82, 221, 59);
+		bodyPnl.add(btnJ3);
+		
+		JButton btnJ2 = new JButton("Jetty 2");
+		btnJ2.setForeground(Color.WHITE);
+		btnJ2.setFont(new Font("Arial", Font.BOLD, 20));
+		btnJ2.setBackground(new Color(0, 153, 204));
+		btnJ2.setBounds(65, 266, 183, 59);
+		bodyPnl.add(btnJ2);
+		
+		JButton btnInterfaceTanks = new JButton("Interface Tanks");
+		btnInterfaceTanks.setForeground(Color.WHITE);
+		btnInterfaceTanks.setFont(new Font("Arial", Font.BOLD, 20));
+		btnInterfaceTanks.setBackground(new Color(0, 153, 204));
+		btnInterfaceTanks.setBounds(348, 240, 235, 59);
+		bodyPnl.add(btnInterfaceTanks);
+		
+		JButton btnTK711 = new JButton("TK-711");
+		btnTK711.setForeground(Color.WHITE);
+		btnTK711.setFont(new Font("Arial", Font.BOLD, 20));
+		btnTK711.setBackground(new Color(0, 153, 204));
+		btnTK711.setBounds(126, 462, 150, 59);
+		bodyPnl.add(btnTK711);
+		
+		JButton btnTK713 = new JButton("TK-713");
+		btnTK713.setForeground(Color.WHITE);
+		btnTK713.setFont(new Font("Arial", Font.BOLD, 20));
+		btnTK713.setBackground(new Color(0, 153, 204));
+		btnTK713.setBounds(516, 521, 183, 59);
+		bodyPnl.add(btnTK713);
+		
+		JButton btnRimsealFire = new JButton("Rimseal Fires");
+		btnRimsealFire.setForeground(Color.WHITE);
+		btnRimsealFire.setFont(new Font("Arial", Font.BOLD, 20));
+		btnRimsealFire.setBackground(new Color(0, 153, 204));
+		btnRimsealFire.setBounds(407, 403, 190, 59);
+		bodyPnl.add(btnRimsealFire);
+		
+		JButton btn20pipeline = new JButton("20\" Pipeline");
+		btn20pipeline.setForeground(Color.WHITE);
+		btn20pipeline.setFont(new Font("Arial", Font.BOLD, 20));
+		btn20pipeline.setBackground(new Color(0, 153, 204));
+		btn20pipeline.setBounds(725, 240, 190, 59);
+		bodyPnl.add(btn20pipeline);
+		
+		JButton btn12pipeline = new JButton("12\" Pipeline");
+		btn12pipeline.setForeground(Color.WHITE);
+		btn12pipeline.setFont(new Font("Arial", Font.BOLD, 20));
+		btn12pipeline.setBackground(new Color(0, 153, 204));
+		btn12pipeline.setBounds(725, 304, 190, 59);
+		bodyPnl.add(btn12pipeline);	
